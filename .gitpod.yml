@@ -1,5 +1,5 @@
-image: python:latest
+image: gitpod/workspace-full
 
 tasks:
   - init: pip install -r requirements.txt
-    command: python3 hello.py
+    command: python hello.py
